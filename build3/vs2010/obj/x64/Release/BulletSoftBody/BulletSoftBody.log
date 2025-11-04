@@ -1,0 +1,10 @@
+﻿  btDefaultSoftBodySolver.cpp
+  btSoftBody.cpp
+  btSoftBodyConcaveCollisionAlgorithm.cpp
+  btSoftBodyHelpers.cpp
+  btSoftBodyRigidBodyCollisionConfiguration.cpp
+  btSoftMultiBodyDynamicsWorld.cpp
+  btSoftRigidCollisionAlgorithm.cpp
+  btSoftRigidDynamicsWorld.cpp
+  btSoftSoftCollisionAlgorithm.cpp
+  BulletSoftBody.vcxproj -> C:\Users\Roelof\Desktop\DESKTOP_2_NOV2025\BULLET generate dll's\Hexapod_WRKS2\Hexapod-VRProject\bin\BulletSoftBody_vs2010_x64_release.lib

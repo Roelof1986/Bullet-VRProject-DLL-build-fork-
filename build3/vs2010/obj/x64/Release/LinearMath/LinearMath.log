@@ -1,0 +1,11 @@
+﻿  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+  btQuickprof.cpp
+  btSerializer.cpp
+  btSerializer64.cpp
+  btThreads.cpp
+  btVector3.cpp
+  LinearMath.vcxproj -> C:\Users\Roelof\Desktop\DESKTOP_2_NOV2025\BULLET generate dll's\Hexapod_WRKS2\Hexapod-VRProject\bin\LinearMath_vs2010_x64_release.lib

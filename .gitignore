@@ -1,5 +1,4 @@
-/bin
-/build3/gmake
+
 /build_cmake/
 
 *.pyc
@@ -16,7 +15,6 @@ pip-selfcheck.json
 
 # Setuptools
 /build
-/build3
 
 /dist
 *.eggs

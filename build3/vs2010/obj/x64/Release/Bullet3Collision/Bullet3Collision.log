@@ -1,0 +1,24 @@
+﻿  b3DynamicBvh.cpp
+  b3DynamicBvhBroadphase.cpp
+  b3OverlappingPairCache.cpp
+  b3ConvexUtility.cpp
+  b3CpuNarrowPhase.cpp
+b3CpuNarrowPhase.obj : error LNK2019: unresolved external symbol b3OutputErrorMessageVarArgsInternal referenced in function "public: int __cdecl b3CpuNarrowPhase::registerConvexHullShape(float const *,int,int,float const *)" (?registerConvexHullShape@b3CpuNarrowPhase@@QEAAHPEBMHH0@Z)
+b3DynamicBvh.obj : error LNK2001: unresolved external symbol b3OutputErrorMessageVarArgsInternal
+b3DynamicBvhBroadphase.obj : error LNK2001: unresolved external symbol b3OutputErrorMessageVarArgsInternal
+b3OverlappingPairCache.obj : error LNK2001: unresolved external symbol b3OutputErrorMessageVarArgsInternal
+b3ConvexUtility.obj : error LNK2001: unresolved external symbol b3OutputErrorMessageVarArgsInternal
+b3CpuNarrowPhase.obj : error LNK2001: unresolved external symbol "void * __cdecl b3AlignedAllocInternal(unsigned __int64,int)" (?b3AlignedAllocInternal@@YAPEAX_KH@Z)
+b3DynamicBvh.obj : error LNK2001: unresolved external symbol "void * __cdecl b3AlignedAllocInternal(unsigned __int64,int)" (?b3AlignedAllocInternal@@YAPEAX_KH@Z)
+b3DynamicBvhBroadphase.obj : error LNK2001: unresolved external symbol "void * __cdecl b3AlignedAllocInternal(unsigned __int64,int)" (?b3AlignedAllocInternal@@YAPEAX_KH@Z)
+b3OverlappingPairCache.obj : error LNK2001: unresolved external symbol "void * __cdecl b3AlignedAllocInternal(unsigned __int64,int)" (?b3AlignedAllocInternal@@YAPEAX_KH@Z)
+b3ConvexUtility.obj : error LNK2001: unresolved external symbol "void * __cdecl b3AlignedAllocInternal(unsigned __int64,int)" (?b3AlignedAllocInternal@@YAPEAX_KH@Z)
+b3CpuNarrowPhase.obj : error LNK2001: unresolved external symbol "void __cdecl b3AlignedFreeInternal(void *)" (?b3AlignedFreeInternal@@YAXPEAX@Z)
+b3DynamicBvh.obj : error LNK2001: unresolved external symbol "void __cdecl b3AlignedFreeInternal(void *)" (?b3AlignedFreeInternal@@YAXPEAX@Z)
+b3DynamicBvhBroadphase.obj : error LNK2001: unresolved external symbol "void __cdecl b3AlignedFreeInternal(void *)" (?b3AlignedFreeInternal@@YAXPEAX@Z)
+b3OverlappingPairCache.obj : error LNK2001: unresolved external symbol "void __cdecl b3AlignedFreeInternal(void *)" (?b3AlignedFreeInternal@@YAXPEAX@Z)
+b3ConvexUtility.obj : error LNK2001: unresolved external symbol "void __cdecl b3AlignedFreeInternal(void *)" (?b3AlignedFreeInternal@@YAXPEAX@Z)
+b3ConvexUtility.obj : error LNK2019: unresolved external symbol "private: float __cdecl b3ConvexHullComputer::compute(void const *,bool,int,int,float,float)" (?compute@b3ConvexHullComputer@@AEAAMPEBX_NHHMM@Z) referenced in function "public: bool __cdecl b3ConvexUtility::initializePolyhedralFeatures(class b3Vector3 const *,int,bool)" (?initializePolyhedralFeatures@b3ConvexUtility@@QEAA_NPEBVb3Vector3@@H_N@Z)
+b3CpuNarrowPhase.obj : error LNK2019: unresolved external symbol b3EnterProfileZone referenced in function "int __cdecl b3ClipHullAgainstHull(class b3Vector3 const &,struct b3ConvexPolyhedronData const &,struct b3ConvexPolyhedronData const &,class b3Vector3 const &,class b3Quaternion const &,class b3Vector3 const &,class b3Quaternion const &,class b3Vector3 *,class b3Vector3 *,int,float,float,class b3AlignedObjectArray<class b3Vector3> const &,class b3AlignedObjectArray<struct b3GpuFace> const &,class b3AlignedObjectArray<int> const &,class b3AlignedObjectArray<class b3Vector3> const &,class b3AlignedObjectArray<struct b3GpuFace> const &,class b3AlignedObjectArray<int> const &,class b3Vector3 *,int)" (?b3ClipHullAgainstHull@@YAHAEBVb3Vector3@@AEBUb3ConvexPolyhedronData@@10AEBVb3Quaternion@@02PEAV1@3HMMAEBV?$b3AlignedObjectArray@Vb3Vector3@@@@AEBV?$b3AlignedObjectArray@Ub3GpuFace@@@@AEBV?$b3AlignedObjectArray@H@@4563H@Z)
+b3CpuNarrowPhase.obj : error LNK2019: unresolved external symbol b3LeaveProfileZone referenced in function "public: __cdecl b3ProfileZone::~b3ProfileZone(void)" (??1b3ProfileZone@@QEAA@XZ)
+..\..\bin\Bullet3Collision_vs2010_x64_release.dll : fatal error LNK1120: 6 unresolved externals
